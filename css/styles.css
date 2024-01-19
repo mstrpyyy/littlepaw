@@ -107,7 +107,7 @@ header h2 {
     background-color: #FFF;
     padding: 40px;
     width: 42%;
-    min-width: auto;
+    min-width: 470px;
     margin: 5px;
     text-align: justify;
     border-radius: 15px;
