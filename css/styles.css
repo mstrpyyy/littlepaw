@@ -42,7 +42,7 @@ header h2 {
     width: 20%;
     border-radius: 10px;
     border: none;
-    min-width: 200px;
+    min-width: 180px;
     display: inline-block;
     text-align: center;
     text-decoration: none;
@@ -70,7 +70,7 @@ header h2 {
 
 #health-cat {
     width: 37.5%;
-    min-width: 75px;
+    min-width: 60px;
     display: block;
     position: sticky;
     margin: auto;
@@ -107,7 +107,7 @@ header h2 {
     background-color: #FFF;
     padding: 40px;
     width: 42%;
-    min-width: 470px;
+    min-width: 330px;
     margin: 5px;
     text-align: justify;
     border-radius: 15px;
