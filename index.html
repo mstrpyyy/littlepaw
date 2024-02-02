@@ -17,20 +17,20 @@
         </div>
         <input type="text" name="search" id="search" placeholder="Search" required>
         <ul>
-            <li><a href="" class="header-nav">Home</a></li>
-            <li><a href="" class="header-nav">Articles</a></li>
-            <li><a href=""class="header-nav">Contact</a></li>
+            <li><a href="#home" class="header-nav">Home</a></li>
+            <li><a href="#featured" class="header-nav">Articles</a></li>
+            <li><a href="" class="header-nav">Contact</a></li>
         </ul>
     </header>
 
-    <section class="cover">
+    <section class="cover" id="home">
         <h1 class="webtitle">Little<span class="br-mobile"><br></span>Paw</h1>
         <p class="header-desc">Cats, Cats, and Cats.</p>
-        <a href=""><button class="cta-about">Meow me 😺</button></a>
+        <a href="#genre"><button class="cta-about">Meow me 😺</button></a>
       </section>
 
-    <div class="genre-title">
-        <h1>Prrr or meow?</h1>
+    <div class="genre-title" id="genre">
+        <h1>Pick a topic</h1>
     </div>
     
     <section class="genre-nav-container">
@@ -46,23 +46,39 @@
         <div class="nav-button">
             <a href="" class="genre-box" id="all">More 🐈</a>
         </div>
-
     </section>
 
+
+    <div class="featured-title" id="featured">
+        <h1>Featured Articles</h1>
+    </div>
+
     <section class="featured-container">
-        <div class="article1">
+        <div class="article-box">
             <h2>Article title</h2>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi tempore voluptate natus accusamus quos, impedit dicta debitis, voluptas molestias voluptatibus aspernatur possimus perferendis corrupti! Soluta reprehenderit eveniet obcaecati enim asperiores.</p>
+            <div class="articlebuttons">
+                <span class="featured-genre">In <a href="">Product Review</a></span>
+                <button class="featured-read-button">Read 😺</button>
+            </div>
         </div>
-        <div class="article2">
+        <div class="article-box">
             <h2>Article title</h2>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi tempore voluptate natus accusamus quos, impedit dicta debitis, voluptas molestias voluptatibus aspernatur possimus perferendis corrupti! Soluta reprehenderit eveniet obcaecati enim asperiores.</p>
+            <div class="articlebuttons">
+                <span class="featured-genre">In <a href="">Health & Wellbeing</a></span>
+                <button class="featured-read-button">Read 😺</button>
+            </div>
         </div>
-        <div class="article3">
+        <div class="article-box">
             <h2>Article title</h2>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi tempore voluptate natus accusamus quos, impedit dicta debitis, voluptas molestias voluptatibus aspernatur possimus perferendis corrupti! Soluta reprehenderit eveniet obcaecati enim asperiores.</p>
+            <div class="articlebuttons">
+                <span class="featured-genre">In <a href="">Story</a></span>
+                <button class="featured-read-button">Read 😺</button>
+            </div>
         </div>
-        <div class="featured-all">
+        <div class="featured-seeallart">
             <h2>See all articles</h2>
         </div>
     </section>
